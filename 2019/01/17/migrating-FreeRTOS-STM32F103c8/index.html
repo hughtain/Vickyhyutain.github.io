@@ -2,6 +2,7 @@
 </blockquote>
 <p>一早上想着拿着麒麟板v3.2来练练手，没见过freeRTOS的我也正好趁此上手一下人家说的比ucos方便的操作系统。<br>没什么好讲的，基本上就是直接将freeRTOS文件夹加入工程里面，然后就能开始编程。第一次编译运行的时候，MDK报错了这个<br><img src="/2019/01/17/migrating-FreeRTOS-STM32F103c8/migrating_FreeRTOS_STM32F103c8/pic1.jpg" alt=""><br>解决方式<br><img src="/2019/01/17/migrating-FreeRTOS-STM32F103c8/migrating_FreeRTOS_STM32F103c8/pic2.jpg" alt=""></p>
 <p>一早上折腾才发现，所有的点亮单个LED的例程不管怎么做移植，都不能在麒麟板上面跑，很气馁，因为我测试了其他全都可以。。。<br>。。。接串口线的接口还少了个VCC，突然间好不习惯插安卓线当串口的日子。</p>
+<p>未完，草率结束。。</p>
 </div><div class="tags"></div><div class="post-nav"><a class="next" href="../../16/今天开始折腾hexo了/">今天开始折腾hexo了;)</a></div><div id="container"></div><link rel="stylesheet" type="text/css" href="//unpkg.com/gitalk/dist/gitalk.css?v=0.0.0"><script type="text/javascript" src="//cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js?v=0.0.0"></script><script type="text/javascript" src="//unpkg.com/gitalk/dist/gitalk.min.js?v=0.0.0"></script><script>var gitalk = new Gitalk({
   clientID: '5aea8fe83c9e06dfcc89',
   clientSecret: '6d7e78c1a24abae230537255d9aeb304bde2eeaf',
